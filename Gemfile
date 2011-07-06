@@ -31,5 +31,10 @@ end
 group :test do
   gem 'spork', '~> 0.9.0.rc'
   gem 'machinist', '>= 2.0.0.beta2'
+  gem 'cucumber-rails', '~> 1.0.2'
+  gem 'database_cleaner', '~> 0.6'
+  gem 'capybara', '~> 1.0.0'
+  gem 'selenium-webdriver'
+  gem 'ffaker'
 end
 
